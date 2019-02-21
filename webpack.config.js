@@ -3,8 +3,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    viewer: './example/teste_2.js',
-	viewer: './example/teste_1.js'
+    viewer: './example/teste_2.js'
   },
   output: {
     filename: '[name].bundle.js',
